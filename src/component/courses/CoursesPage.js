@@ -1,8 +1,20 @@
 import React from "react";
 
 class CoursePage extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            course: {
+                title: ""
+            }
+        }
+    }
     render() {
-        return <h2>Courses</h2>
+        return (
+            <form>
+                
+            </form>
+        )
     }
 }
 
